@@ -6,7 +6,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![devops-exercises](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![devops-exercises](images/preview.png)](https://github.com/Swift-Tech-Co/devops-exercises)
 
 ## DevOps Applications
 
@@ -17,7 +17,6 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
   <td align="center"><a href="https://play.google.com/store/apps/details?id=com.codingshell.system_design_hero"><img src="images/apps/system_design_hero.png" width="200px;" height="300px;" alt="Sytem Design Hero"/><br /><b>System Design Hero</b></a></td>
 </tr>
 </table>
-
 
 ## Network
 
@@ -487,7 +486,6 @@ Control Plane.
 
 <details>
 <summary>Explain OSPF.</summary><br><b>
-
 
 OSPF (Open Shortest Path First) is a routing protocol that can be implemented on various types of routers. In general, OSPF is supported on most modern routers, including those from vendors such as Cisco, Juniper, and Huawei. The protocol is designed to work with IP-based networks, including both IPv4 and IPv6. Also, it uses a hierarchical network design, where routers are grouped into areas, with each area having its own topology map and routing table. This design helps to reduce the amount of routing information that needs to be exchanged between routers and improve network scalability.
 
@@ -1050,7 +1048,6 @@ func main() {
 
 <details>
 <summary>The following block of code tries to convert the integer 101 to a string but instead we get "e". Why is that? How to fix it?
-
 
 ```go
 package main
@@ -1697,7 +1694,6 @@ You can read about TripleO right [here](https://docs.openstack.org/tripleo-docs/
   - neutron-metering-agent
   - neutron-*-agtent
   - neutron-server</summary><br><b>
-
 
   * neutron-l3-agent - L3/NAT forwarding (provides external network access for VMs for example)
   * neutron-dhcp-agent - DHCP services
@@ -2822,7 +2818,6 @@ It consists of:
 <details>
 <summary>What is HTTPS?</summary><br><b>
 
-
 HTTPS is a secure version of the HTTP protocol used to transfer data between a web browser and a web server. It encrypts the communication using SSL/TLS encryption to ensure that the data is private and secure.
 
 Learn more: https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/
@@ -3417,7 +3412,6 @@ The ability to grow but also to reduce based on what is required
 <details>
 <summary>Explain Disaster Recovery</summary><br><b>
 
-
 Disaster recovery is the process of restoring critical business systems and data after a disruptive event. The goal is to minimize the impact and resume normal business activities quickly. This involves creating a plan, testing it, backing up critical data, and storing it in safe locations. In case of a disaster, the plan is then executed, backups are restored, and systems are hopefully brought back online. The recovery process may take hours or days depending on the damages of infrastructure. This makes business planning important, as a well-designed and tested disaster recovery plan can minimize the impact of a disaster and keep operations going.
 </b></details>
 
@@ -3947,11 +3941,9 @@ The work flow is as follows:
 >> * Ceph Object Gateway
 >> * Any third party ceph client
 
-
 2. The client retrieves the latest cluster map from the Ceph Monitor
 3. The client uses the CRUSH algorithm to map the object to a placement group. The placement group is then assigned to a OSD.
 4. Once the placement group and the OSD Daemon are determined, the client can retrieve the data from the appropriate OSD
-
 
 </b></details>
 
@@ -4027,7 +4019,6 @@ If you are looking for a way to prepare for a certain exam this is the section f
 * [Solutions Architect Associate](certificates/aws-solutions-architect-associate.md) (Latest update: 2021)
 * [Cloud SysOps Administration Associate](certificates/aws-cloud-sysops-associate.md) (Latest update: Oct 2022)
 
-
 #### Azure
 
 * [AZ-900](certificates/azure-fundamentals-az-900.md) (Latest update: 2021)
@@ -4053,6 +4044,14 @@ Logos credits can be found [here](credits.md)
 ## License
 
 [![License: CC BY-NC-ND 3.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+
+## Sources
+
+Compiled and maintained from upstream [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
